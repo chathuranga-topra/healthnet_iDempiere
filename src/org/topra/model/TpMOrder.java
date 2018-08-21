@@ -36,6 +36,7 @@ public class TpMOrder extends MOrder{
 	 * 	Complete Document
 	 * 	@return new status (Complete, In Progress, Invalid, Waiting ..)
 	 */
+	//override due to the separate order data and invoice date on POS order
 	@Override
 	public String completeIt()
 	{	
